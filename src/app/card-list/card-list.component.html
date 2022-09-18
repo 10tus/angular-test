@@ -1,0 +1,5 @@
+<div>
+  <div *ngFor="let res of anime$ | async">
+    <anime-card [animeData]="res"></anime-card>
+  </div>
+</div>
